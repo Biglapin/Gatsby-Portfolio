@@ -11,47 +11,47 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Kevin SANTANDER',
-  subtitle: 'JS Developer',
+  subtitle: 'FullStack Developer',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: 'Hello, nice to meet you ',
+  paragraphTwo: "I'm a student FullStack developer. I try to reconvert so I'm coding and working hard to get there.",
+  paragraphThree: "I'm quietly confident, naturally curious, and perpetually working on improving my skills.",
+  resume: 'https://www.linkedin.com/in/kevin-santander-927723103/', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
+    img: 'projet1_patinage.jpg',
+    title: 'Club Patinage Artistique',
+    info: 'It was my very first site. A lot of things to say but you have to start somewhere.',
+    info2: 'HTML / CSS / Bootstrap',
+    url: 'https://biglapin.github.io/patinage/#team',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'projet2_tindog.jpg',
+    title: 'Tindog',
+    info: 'Do you know the app Tinder ? So now you know Tindog ! ',
+    info2: 'I created this little front page for an exercice on Udemy',
+    url: 'https://biglapin.github.io/tindog/',
+    repo: 'https://github.com/Biglapin/tindog', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'projet3_I_want_you.jpg',
+    title: 'Maybe you ? ',
+    info: "At the beginning we don't have a lot of project to share. So If you want to challenge me",
+    info2: "Let's GO ! Send me your project in the contact form !",
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +59,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'kevin.santander@protonmail.ch',
 };
 
 // FOOTER DATA
@@ -78,17 +78,17 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/kevin-santander-927723103/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/Biglapin',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
