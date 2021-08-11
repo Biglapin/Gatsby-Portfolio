@@ -2,6 +2,7 @@
   "name": "kevin-santander-portfolio",
   "private": true,
   "description": "Kevin SANTANDER Portfolio",
+  "homepage": "https://kevinsantander.fr",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -71,5 +72,7 @@
       "prettier --write",
       "git add"
     ]
+    
   }
+  
 }
