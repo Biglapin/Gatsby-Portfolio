@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: 'Hello, nice to meet you ',
-  paragraphTwo: "I'm a student FullStack developer. I try to reconvert so I'm coding and working hard to get there.",
+  paragraphTwo: "I'm a student FullStack developer. I try to reconvert myself so I'm coding and working hard to get there.",
   paragraphThree: "I'm quietly confident, naturally curious, and perpetually working on improving my skills.",
   resume: 'https://www.linkedin.com/in/kevin-santander-927723103/', // if no resume, the button will not show up
 };
